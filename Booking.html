@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking - WisataAkhirTahun</title>
+  <link rel="stylesheet" href="Css/css booking.css">
+</head>
+<body>
+
+<header class="ab">
+  <div class="cd"> Wisata<span>AkhirTahun</span></div>
+  <nav class="ef">
+    <a href="index.html">Beranda</a>
+    <a href="Destinasi.html">Destinasi</a>
+    <a href="paket.html">Paket</a>
+    <a href="Booking.html" class="active">Booking</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="Kontak.html">Kontak</a>
+  </nav>
+</header>
+
+<section class="kd">
+  <h1>Form Pemesanan Tiket</h1>
+  <p>Pesan perjalanan liburan akhir tahunmu dengan mudah dan cepat.</p>
+</section>
+
+<section class="sps">
+  <div class="form-box">
+    <form action="#" method="post">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+      <label for="tujuan">Pilih Destinasi</label>
+      <select id="tujuan" name="tujuan" required>
+        <option value="">Pilih Tujuan Wisata</option>
+        <option value="bali">Bali</option>
+        <option value="rajaampat">Raja Ampat</option>
+        <option value="borobudur">Borobudur</option>
+        <option value="dieng">Dieng</option>
+        <option value="toba">Danau Toba</option>
+      </select>
+
+      <label for="tanggal">Tanggal Keberangkatan</label>
+      <input type="date" id="tanggal" name="tanggal" required>
+
+      <label for="jumlah">Jumlah Orang</label>
+      <input type="number" id="jumlah" name="jumlah" min="1" max="20" required>
+
+      <label for="catatan">Catatan Tambahan</label>
+      <textarea id="catatan" name="catatan" placeholder="Tuliskan permintaan khusus (opsional)" rows="4"></textarea>
+
+      <button type="submit" class="btn">Kirim Pemesanan</button>
+    </form>
+  </div>
+</section>
+
+<footer class="ft">
+  <p>&copy; 2025 WisataAkhirTahun</p>
+</footer>
+
+</body>
+</html>
